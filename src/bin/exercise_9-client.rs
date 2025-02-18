@@ -11,7 +11,7 @@
 use std::net::TcpStream;
 use apricity::Coordinate;
 use rand::prelude::*;
-use rustdemo::{helpers::exercise_9::city_parser::*, protocol::{ClientMessage, ServerMessage}};
+use rust_course_2025::{helpers::exercise_9::city_parser::*, protocol::{ClientMessage, ServerMessage}};
 
 pub enum SocketEvent {
     Connect(u32, TcpStream),

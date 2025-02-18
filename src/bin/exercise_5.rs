@@ -18,7 +18,7 @@
 ///     draw_geo::draw_image(window, &image, position_on_screen, Alignment::Left);
 
 use apricity::{Coordinate, Point, gui::*};
-use rustdemo::helpers::exercise_5::{ city_parser::*, draw_geo::*};
+use rust_course_2025::helpers::exercise_5::{ city_parser::*, draw_geo::*};
 
 const WINDOW_WIDTH: u32 = 1500;
 const WINDOW_HEIGHT: u32 = 750;
