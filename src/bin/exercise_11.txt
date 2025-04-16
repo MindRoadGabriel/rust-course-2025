@@ -1,0 +1,13 @@
+Exercise 11: Tie it all together. (Client)
+
+Duplicate exercise_5.rs to exercise_11.rs.
+Also use code from exercise_8.rs.
+Implement the client for this game!
+
+Have the client cycle through three states.
+a) Displaying the city name and asking the user to guess where the city is by clicking,
+b) asking the player to wait for the other players to guess,
+c) and displaying the distance between the guess and the correct coordinate
+along with circles for the clicked coordinate and the correct coordinate.
+
+When you're done, connect to the teacher server and play with others who are done.

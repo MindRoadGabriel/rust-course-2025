@@ -75,7 +75,7 @@ pub fn create_world_map(width: u32, height: u32) -> Result<SimpleImage, Box<dyn 
     Ok(world_map)
 }
 
-pub fn draw_image(window: &mut SimpleWindow, image: &SimpleImage, position: (i32, i32), alignment: Alignment) {
+pub fn draw_image_with_alignment(window: &mut SimpleWindow, image: &SimpleImage, position: (i32, i32), alignment: Alignment) {
     let image_width = image.width();
     let image_height = image.height();
     let mut x = position.0;

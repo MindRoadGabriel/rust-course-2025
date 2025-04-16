@@ -1,1 +1,4 @@
-Move the common behaviour of loading the json file and the data structures to lib.rs.
+Exercise 3 - Modules
+a) Duplicate the exercise_2.rs to exercise_3.rs.
+b) Move the filtering function to a new file called filter.rs.
+c) Move the data structures and the behaviour of loading the json file to lib.rs.

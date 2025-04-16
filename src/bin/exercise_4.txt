@@ -1,6 +1,17 @@
-Write a program that prints the largest city for each country
+Exercise 4 - HashMaps
+
+a) Duplicate the exercise_3.rs to exercise_4.rs.
+b) Write a program that prints the largest city for each country
 
 Useful snippets:
    use std::collections::HashMap;
    let mut countries = HashMap::new();
-   countries.entry("Countryname").and_modify(|stored_item| *stored_item = item).or_insert(item);
+   match countries.entry("Country Name") {
+       Entry::Occupied(mut occupied) => {
+           *occupied.get_mut() = item;
+       }
+       Entry::Vacant(vacant) => {
+           vacant.insert(item);
+       }
+   }
+
